@@ -5,3 +5,7 @@ build:
 
 windows:
 	GOOS=windows GOARCH=386 go build -o mdmerge.exe
+
+docker: build
+	docker build -t briefbote/mdmerge:latest .
+	docker push briefbote/mdmerge:latest
