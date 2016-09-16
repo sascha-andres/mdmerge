@@ -6,12 +6,9 @@ A tool to merge markdown files
 
 Todo
 
-## Known issues
-
-Table of contents does not look correct
-
 ## History
 
-### 20160831
-
-Initial version
+|Version|Description|
+|---|---|
+|20160916|Changed toc creation|
+|20160831|Initial version|
