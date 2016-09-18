@@ -1,10 +1,18 @@
 # mdmerge
 
-A tool to merge markdown files
+A tool to merge markdown files. Output is written to stdout
 
 ## Documentation
 
-Todo
+### Parameters
+
+#### `-createtoc`
+
+Write a table of content into the created md document
+
+#### `-headlines`
+
+Write headlines for each directory
 
 ## History
 
