@@ -31,5 +31,8 @@ If you want to contribute feel free to open an issue
 
 |Version|Description|
 |---|---|
+|20161215|Vedoring|
+||goreportcard|
+||Travis|
 |20160916|Changed toc creation|
 |20160831|Initial version|
