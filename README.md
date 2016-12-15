@@ -2,7 +2,7 @@
 
 A tool to merge markdown files. Output is written to stdout
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/sascha-andres/mdmerge)](https://goreportcard.com/report/github.com/sascha-andres/mdmerge) 
+[![Go Report Card](https://goreportcard.com/badge/github.com/sascha-andres/mdmerge)](https://goreportcard.com/report/github.com/sascha-andres/mdmerge) [![Build Status](https://travis-ci.org/sascha-andres/mdmerge.svg?branch=master)](https://travis-ci.org/sascha-andres/mdmerge)
 
 ## Documentation
 
