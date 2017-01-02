@@ -31,7 +31,9 @@ If you want to contribute feel free to open an issue
 
 |Version|Description|
 |---|---|
-|20161215|Vedoring|
+|20170102|.version file|
+||codebeat|
+|20161215|Vendoring|
 ||goreportcard|
 ||Travis|
 |20160916|Changed toc creation|
