@@ -1,11 +1,11 @@
-// Copyright 2016 Sascha Andres
-
+// Copyright © 2017 Sascha Andres <sascha.andres@outlook.com>
+//
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
-
+//
 //     http://www.apache.org/licenses/LICENSE-2.0
-
+//
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -14,42 +14,8 @@
 
 package main
 
-import (
-	"flag"
-	"fmt"
-	"github.com/sascha-andres/mdmerge/filelister"
-	"github.com/sascha-andres/mdmerge/mdmerger"
-	"github.com/sascha-andres/mdmerge/toc"
-	"log"
-	"os"
-)
+import "github.com/sascha-andres/mdmerge/cmd"
 
 func main() {
-
-	var createtoc, printHeadlines bool
-
-	flag.BoolVar(&createtoc, "createtoc", false, "Create a toc")
-	flag.BoolVar(&printHeadlines, "headlines", true, "Print headlines")
-
-	flag.Parse()
-
-	/* get files for directory */
-	dir, err := os.Getwd()
-	if nil != err {
-		log.Fatal("Could not get directory")
-	}
-
-	files, err := filelister.Get(dir, "")
-	if nil != err {
-		log.Fatal(fmt.Sprintf(" %v", err))
-	}
-
-	/* create toc */
-	var tableOfContents string
-	if createtoc {
-		tableOfContents = toc.Create(files, "", 1)
-	}
-
-	/* build target md file */
-	mdmerger.Print(files, tableOfContents, printHeadlines, "", 1)
+	cmd.Execute()
 }
