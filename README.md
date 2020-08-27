@@ -2,7 +2,7 @@
 
 A tool to merge markdown files. Output is written to stdout
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/sascha-andres/mdmerge)](https://goreportcard.com/report/github.com/sascha-andres/mdmerge) [![Build Status](https://travis-ci.org/sascha-andres/mdmerge.svg?branch=master)](https://travis-ci.org/sascha-andres/mdmerge) [![codebeat badge](https://codebeat.co/badges/640b163c-db4a-4bc4-827e-86b2daa1698e)](https://codebeat.co/projects/github-com-sascha-andres-mdmerge)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sascha-andres/mdmerge)](https://goreportcard.com/report/github.com/sascha-andres/mdmerge) [![codebeat badge](https://codebeat.co/badges/640b163c-db4a-4bc4-827e-86b2daa1698e)](https://codebeat.co/projects/github-com-sascha-andres-mdmerge)
 
 ## Documentation
 
@@ -31,6 +31,7 @@ If you want to contribute feel free to open an issue
 
 |Version|Description|
 |---|---|
+||- remove travis config|
 |1.0.1|- add github action config|
 |1.0.0|- use go modules|
 ||- use semver|
