@@ -31,6 +31,8 @@ If you want to contribute feel free to open an issue
 
 |Version|Description|
 |---|---|
+|1.0.0|- use go modules|
+||- use semver|
 |20170102|.version file|
 ||codebeat|
 |20161215|Vendoring|
